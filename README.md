@@ -54,3 +54,6 @@
 
 - [Играть в браузере](https://iskandermahsutov.github.io/cyber-sentinel-afterlight/)
 - [Исходный код](https://github.com/iskandermahsutov/cyber-sentinel-afterlight)
+
+- [Игра на itch.io](https://iskander-mahsutov.itch.io/cyber-sentinel-afterlight)
+- [IT Project Game Challenge 2026 — конкурсная заявка](https://itch.io/jam/it-project-game-challenge-2026/rate/5348526)
