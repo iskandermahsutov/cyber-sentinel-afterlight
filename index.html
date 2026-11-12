@@ -759,7 +759,7 @@ function nextStage(){g.stage++;g.stageClock=0;g.spawned=0;g.neutralized=0;g.quot
 function showModal(title,desc,cta,action,secondary){hideTitle74();$('overlay').style.display='flex';$('modal').innerHTML=`<div class="eyebrow">CYBER SENTINEL / AFTERLIGHT / 2049</div><h2>${title}</h2><p>${desc}</p><button class="modal-btn" id="primaryModal">${cta}</button>${secondary?'<button class="secondary-btn" id="secondaryModal">НАСТРОЙКИ И УПРАВЛЕНИЕ</button>':''}`;$('primaryModal').onclick=action;if(secondary)$('secondaryModal').onclick=help}
 // CYBER SENTINEL 7.4.1 — Living City: isolated animated title sequence.
 // No changes to the mission data, game loop, puzzles or save-key.
-let title74Root=null,title74Ctx=null,title74RAF=0,title74Ambience=null,title74AudioWanted=false,title74MotionEnabled=!(window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches);
+let title74Root=null,title74Ctx=null,title74RAF=0,title74Ambience=null,title74AudioWanted=false,title74MotionEnabled=true;
 const title74Reduce=()=>!title74MotionEnabled;
 const title74Rand=n=>{let x=Math.sin(n*127.13+98.43)*43758.54;return x-Math.floor(x)};
 function title74Init(){
